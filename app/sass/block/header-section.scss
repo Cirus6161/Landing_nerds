@@ -1,0 +1,133 @@
+@import "../vars";
+
+.header-section{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header-section__item--blue{
+  background-color: $blue-color;
+  height: 68px;
+  margin-bottom: 33px;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navigation__list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  min-height: 68px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.navigation__list li a{
+  color: #fff;
+  font-family: $SF-UI-font;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation__list--fab{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  li{
+    padding-right: 20px;
+  }
+    li i{
+      color: #fff;
+      font-size: 20px;
+    }
+}
+
+.main-left{
+  display: flex;
+  flex-direction: column;
+  .logo{
+    margin-bottom: 90px;
+  }
+    .logo__text{
+      font-family: $SF-UI-font;
+      font-size: 19px;
+      font-weight: normal;
+      font-style: normal;
+    }
+}
+
+.main-left__text h1{
+  position: relative;
+  font-family: $SF-UI-font;
+  font-size: 33px;
+  font-weight: normal;
+  font-style: normal;
+  &::after{
+    left: 0px;
+    bottom: -40px;
+    position: absolute;
+    content: "";
+    width: 111px;
+    height: 8px;
+    border-radius: 3px;
+    background-color: $gold-color;
+  }
+    span{
+      font-size: 60px;
+      font-style: normal;
+      display: inline-block;
+      margin-top: 6px;
+    }
+}
+
+.main-left__text h2{
+  font-family: $SF-UI-font;
+  font-size: 41px;
+  margin-top: 95px;
+}
+
+.main-left__button{
+  display: inline-block;
+  margin-top: 27px;
+  padding-top: 21px;
+  padding-right: 92px;
+  padding-bottom: 24px;
+  padding-left: 52px;
+  background-color: $gold-color;
+  border-radius: 5px;
+  font-family: $SF-UI-font;
+  font-size: 20px;
+  color: #fff;
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(154,123,0,1);
+  -moz-box-shadow: 0px 3px 0px 0px rgba(154,123,0,1);
+  box-shadow: 0px 3px 0px 0px rgba(154,123,0,1);
+}
+
+
+.main-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  .main-right__text{
+
+  }
+}
+
+.main-right__img{
+  margin-top: 27px;
+}
+
+.main-right__img img{
+  width: 115%;
+}
+
+
+
+
