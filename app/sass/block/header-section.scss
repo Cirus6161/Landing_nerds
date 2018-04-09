@@ -3,6 +3,7 @@
 .header-section{
   display: flex;
   flex-direction: column;
+  margin-bottom: 108px;
 }
 
 
@@ -26,6 +27,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 0;
+  margin: 0;
 }
 
 .navigation__list li a{
@@ -121,11 +123,31 @@
 }
 
 .main-right__img{
-  margin-top: 27px;
+  margin-top: 90px;
 }
 
 .main-right__img img{
   width: 100%;
+}
+
+.main-right__text h3{
+  margin-top: -5px;
+  margin-right: 50px;
+  display: inline-block;
+  font-size: 27px;
+  font-family: $SF-UI-font;
+  a{
+    display: inline-block;
+    font-size: 21px;
+    color: #000000;
+    border-bottom: 1px dotted black;
+    transform: translate(88%, -25%);
+  }
+  span{
+    font-size: 20px;
+    font-weight: 900;
+  }
+
 }
 
 

@@ -1,0 +1,23 @@
+.about-section__item--blue {
+  background-color: #3498DB;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.about-text {
+  font-family: "SF UI Text", sans-serif;
+  color: #fff;
+  -webkit-transform: translate(-2%, -1%);
+      -ms-transform: translate(-2%, -1%);
+          transform: translate(-2%, -1%);
+}
+
+.about-text h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-text__p {
+  font-size: 18px;
+}
