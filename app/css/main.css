@@ -10129,6 +10129,10 @@ template {
   box-shadow: 0px 3px 0px 0px #9a7b00;
 }
 
+.main-left__button:hover {
+  color: #fff;
+}
+
 .main-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10224,7 +10228,229 @@ template {
   padding-right: 30px;
 }
 
+.form-section__item--blue {
+  background-color: #3498DB;
+  padding-top: 105px;
+  padding-bottom: 93px;
+}
+
+.header-row {
+  text-align: center;
+}
+
+.header-row h2 {
+  font-family: "SF UI Text", sans-serif;
+  font-size: 44px;
+  color: #fff;
+  -webkit-transform: translate(3%, 0%);
+      -ms-transform: translate(3%, 0%);
+          transform: translate(3%, 0%);
+  margin-bottom: 55px;
+}
+
+.header-row span {
+  font-size: 30px;
+  margin-right: 80px;
+}
+
+.form-section form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-section form ::-webkit-input-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section form ::-moz-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section form :-ms-input-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section form ::-ms-input-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section form ::placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section form input {
+  outline: none;
+  font-size: 18px;
+  font-family: "SF UI Text", sans-serif;
+  padding-bottom: 17px;
+  padding-left: 10px;
+  margin-right: 26px;
+  width: 31%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.form-button {
+  border-bottom: 0px !important;
+  font-size: 20px;
+  padding: 21px 121px 24px 87px;
+  background-color: #F1C40F !important;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
+          box-shadow: 0px 3px 0px 0px #9a7b00;
+  margin-top: 55px;
+  -webkit-transform: translate(13%, 0%);
+      -ms-transform: translate(13%, 0%);
+          transform: translate(13%, 0%);
+}
+
+.portfolio-section {
+  padding-top: 100px;
+  padding-bottom: 101px;
+  text-align: center;
+}
+
+.portfolio-section h2 {
+  font-size: 44px;
+  font-family: "SF UI Text", sans-serif;
+  font-weight: bold;
+  margin-bottom: 85px;
+}
+
+.portfolio__item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolio__item img {
+  width: 100%;
+}
+
+.portfolio__item .portfolio__item--wrap {
+  opacity: 0;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 14px;
+  width: 93%;
+  height: 100%;
+  background-color: rgba(52, 152, 219, 0.11);
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.portfolio__item .portfolio__item--wrap a {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+  text-decoration: none;
+}
+
+.portfolio__item .portfolio__item--wrap a:after {
+  content: "";
+  background-color: #F1C40F;
+  width: 170px;
+  height: 5px;
+  position: absolute;
+  bottom: -114px;
+  right: -93px;
+}
+
+.portfolio__item .portfolio__item--wrap a:before {
+  content: "";
+  background-color: #F1C40F;
+  height: 170px;
+  width: 5px;
+  position: absolute;
+  bottom: -114px;
+  right: -93px;
+}
+
+.portfolio__item .portfolio__item--wrap h3 {
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.portfolio__item .portfolio__item--wrap h3:after {
+  content: "";
+  background-color: #F1C40F;
+  width: 170px;
+  height: 5px;
+  position: absolute;
+  top: -80px;
+  left: 10px;
+}
+
+.portfolio__item .portfolio__item--wrap h3:before {
+  content: "";
+  background-color: #F1C40F;
+  height: 170px;
+  width: 5px;
+  position: absolute;
+  top: -80px;
+  left: 10px;
+}
+
+.portfolio__item:hover .portfolio__item--wrap {
+  opacity: 1;
+}
+
+.all-works--btn {
+  display: inline-block;
+  margin-top: 3px;
+  color: #fff;
+  background-color: #F1C40F;
+  padding: 21px 104px 24px 71px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
+          box-shadow: 0px 3px 0px 0px #9a7b00;
+  font-size: 20px;
+}
+
+.all-works--btn:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: none;
 }

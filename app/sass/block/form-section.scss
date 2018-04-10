@@ -1,1 +1,60 @@
 @import "../vars";
+
+
+
+.form-section__item--blue{
+  background-color: $blue-color;
+  padding-top: 105px;
+  padding-bottom: 93px;
+}
+
+.header-row{
+  text-align: center;
+  h2{
+    font-family: $SF-UI-font;
+    font-size: 44px;
+    color: #fff;
+    transform: translate(3%, 0%);
+    margin-bottom: 55px;
+  }
+  span{
+    font-size: 30px;
+    margin-right: 80px;
+  }
+}
+
+.form-section form{
+  ::placeholder {
+    color: #fff;
+    font-family: $SF-UI-font;
+    font-size: 18px;
+  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  input{
+    outline: none;
+    font-size: 18px;
+    font-family: $SF-UI-font;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    margin-right: 26px;
+    width: 31%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+  }
+}
+
+.form-button{
+  border-bottom: 0px !important;
+  font-size: 20px;
+  padding: 21px 121px 24px 87px;
+  background-color: $gold-color !important;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px #9a7b00;
+  margin-top: 55px;
+  transform: translate(13%, 0%);
+}

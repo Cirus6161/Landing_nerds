@@ -1,0 +1,102 @@
+@import "../vars";
+
+.portfolio-section {
+  padding-top: 100px;
+  padding-bottom: 101px;
+  text-align: center;
+  h2{
+    font-size: 44px;
+    font-family: $SF-UI-font;
+    font-weight: bold;
+    margin-bottom: 85px;
+  }
+}
+
+.portfolio__item{
+  position: relative;
+  margin-bottom: 30px;
+  img{
+    width: 100%;
+  }
+  .portfolio__item--wrap{
+    opacity: 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 14px;
+    width: 93%;
+    height: 100%;
+    background-color: rgba(52, 152, 219, 0.11);
+    transition: all .5s;
+    a{
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+      color: #fff;
+      border-bottom: 1px dashed #fff;
+      text-decoration: none;
+      &:after{
+        content: "";
+        background-color: $gold-color;
+        width: 170px;
+        height: 5px;
+        position: absolute;
+        bottom: -114px;
+        right: -93px;
+      }
+      &:before{
+        content: "";
+        background-color: $gold-color;
+        height: 170px;
+        width: 5px;
+        position: absolute;
+        bottom: -114px;
+        right: -93px;
+      }
+    }
+    h3{
+      position: relative;
+      margin-top: 90px;
+      margin-bottom: 50px;
+      font-size: 30px;
+      font-weight: bold;
+      &:after{
+        content: "";
+        background-color: $gold-color;
+        width: 170px;
+        height: 5px;
+        position: absolute;
+        top: -80px;
+        left: 10px;
+      }
+      &:before{
+        content: "";
+        background-color: $gold-color;
+        height: 170px;
+        width: 5px;
+        position: absolute;
+        top: -80px;
+        left: 10px;
+      }
+    }
+  }
+}
+
+.portfolio__item:hover .portfolio__item--wrap{
+  opacity: 1;
+}
+
+.all-works--btn{
+  display: inline-block;
+  margin-top: 3px;
+  color: #fff;
+  background-color: $gold-color;
+  padding: 21px 104px 24px 71px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px #9a7b00;
+  font-size: 20px;
+  &:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+}
