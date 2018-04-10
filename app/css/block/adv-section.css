@@ -1,0 +1,23 @@
+.adv-section {
+  padding-top: 100px;
+  padding-bottom: 175px;
+}
+
+.adv-section .container .row h2 {
+  margin: 0 auto;
+  font-size: 46px;
+}
+
+.adv-section__item {
+  text-align: center;
+  padding-top: 65px;
+}
+
+.adv-section__item h3 {
+  padding-bottom: 10px;
+}
+
+.adv-section__item--text {
+  padding-left: 30px;
+  padding-right: 30px;
+}
