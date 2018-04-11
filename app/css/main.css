@@ -10361,7 +10361,7 @@ template {
   left: 14px;
   width: 93%;
   height: 100%;
-  background-color: rgba(52, 152, 219, 0.11);
+  background-color: rgba(52, 152, 219, 0.3);
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
