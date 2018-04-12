@@ -22,21 +22,46 @@
   color: #fff;
 }
 
+.price-section__box--flex {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .price-section__box {
-  padding-top: 9px;
+  position: relative;
+  padding-top: 33px;
   background-color: #fff;
   -webkit-border-radius: 5px;
           border-radius: 5px;
+  margin-right: 10px;
 }
 
-.price-section__box .price-section__inner ul {
-  padding-left: 10px;
+.price-section__box a {
+  position: absolute;
+}
+
+.price-section__box .price-section__inner img {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+
+.price-section__box .price-section__inner .price-section__box--footer {
+  background-color: #0071BE;
+  width: 100%;
+  -webkit-border-bottom-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+          border-bottom-right-radius: 5px;
 }
 
 .price-section__box .price-section__inner h2 {
   font-size: 27px;
   font-weight: bold;
   margin-bottom: 13px;
+  padding-left: 15px;
 }
 
 .price-section__box .price-section__inner span {
@@ -45,13 +70,34 @@
   font-style: italic;
   font-size: 18px;
   margin-bottom: 15px;
+  padding-left: 10px;
 }
 
 .price-section__box .price-section__inner ul {
   list-style-image: url("../../img/Ellipse 2.png");
+  padding-left: 26px;
 }
 
 .price-section__box .price-section__inner ul li {
   margin-bottom: 19px;
   padding-left: 15px;
+}
+
+.item1 {
+  -webkit-flex-basis: 30%;
+      -ms-flex-preferred-size: 30%;
+          flex-basis: 30%;
+}
+
+.item2 {
+  -webkit-flex-basis: 36%;
+      -ms-flex-preferred-size: 36%;
+          flex-basis: 36%;
+}
+
+.item3 {
+  -webkit-flex-basis: 32%;
+      -ms-flex-preferred-size: 32%;
+          flex-basis: 32%;
+  margin-right: 0px;
 }
