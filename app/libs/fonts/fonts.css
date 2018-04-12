@@ -264,4 +264,23 @@ Segoe UI-Negreta*/
 	font-style: italic;
 }
 
+@font-face {
+	font-family: 'MullerBlack';
+	src: url('Fontfabric - MullerBold.otf');
+	font-weight: 600;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'MullerBlack';
+	src: url('Fontfabric - MullerLight.otf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerBlack';
+	src: url('Fontfabric - MullerMedium.otf');
+	font-weight: 500;
+	font-style: normal;
+}

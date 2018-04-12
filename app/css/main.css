@@ -10449,7 +10449,7 @@ template {
 .price-section__item--blue {
   background-color: #3498DB;
   padding-top: 100px;
-  padding-bottom: 90px;
+  padding-bottom: 168px;
 }
 
 .price-section__header {
@@ -10487,7 +10487,20 @@ template {
 }
 
 .price-section__box a {
+  margin-top: 15px;
+  padding-left: 43px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  width: 100%;
   position: absolute;
+  display: inline-block;
+  color: #fff;
+  background-color: #F1C40F;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
+  box-shadow: 0px 3px 0px 0px #9a7b00;
+  font-size: 20px;
 }
 
 .price-section__box .price-section__inner img {
@@ -10503,6 +10516,22 @@ template {
           border-bottom-left-radius: 5px;
   -webkit-border-bottom-right-radius: 5px;
           border-bottom-right-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 19px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.price-section__box .price-section__inner .price-section__box--footer .terms {
+  font-family: "MullerBlack", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 .price-section__box .price-section__inner h2 {
@@ -10512,7 +10541,7 @@ template {
   padding-left: 15px;
 }
 
-.price-section__box .price-section__inner span {
+.price-section__box .price-section__inner .descr {
   display: inline-block;
   font-family: "MullerBlack", sans-serif;
   font-style: italic;
@@ -10529,6 +10558,21 @@ template {
 .price-section__box .price-section__inner ul li {
   margin-bottom: 19px;
   padding-left: 15px;
+}
+
+.price-section__footer--text {
+  font-family: "MullerBlack", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  color: #fff;
+  margin-right: 23px;
+}
+
+.price-section__footer--text .uah {
+  padding-left: 0;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .item1 {
