@@ -1,0 +1,57 @@
+.price-section__item--blue {
+  background-color: #3498DB;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.price-section__header {
+  text-align: center;
+  font-family: "SF UI Text", sans-serif;
+  margin-bottom: 26px;
+}
+
+.price-section__header h2 {
+  font-size: 44px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.price-section__header .price-section__text {
+  font-size: 22px;
+  font-family: "MullerBlack", sans-serif;
+  color: #fff;
+}
+
+.price-section__box {
+  padding-top: 9px;
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.price-section__box .price-section__inner ul {
+  padding-left: 10px;
+}
+
+.price-section__box .price-section__inner h2 {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.price-section__box .price-section__inner span {
+  display: inline-block;
+  font-family: "MullerBlack", sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.price-section__box .price-section__inner ul {
+  list-style-image: url("../../img/Ellipse 2.png");
+}
+
+.price-section__box .price-section__inner ul li {
+  margin-bottom: 19px;
+  padding-left: 15px;
+}

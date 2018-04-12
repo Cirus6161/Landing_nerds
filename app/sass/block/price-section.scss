@@ -1,0 +1,55 @@
+@import "../vars";
+
+.price-section__item--blue{
+  background-color: $blue-color;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.price-section__header{
+  text-align: center;
+  font-family: $SF-UI-font;
+  margin-bottom: 26px;
+  h2{
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  .price-section__text{
+    font-size: 22px;
+    font-family: $Muller-font;
+    color: #fff;
+  }
+}
+
+.price-section__box{
+  padding-top: 9px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  .price-section__inner{
+
+    ul{
+      padding-left: 10px;
+    }
+    h2{
+      font-size: 27px;
+      font-weight: bold;
+      margin-bottom: 13px;
+    }
+    span{
+      display: inline-block;
+      font-family: $Muller-font;
+      font-style: italic;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    ul{
+      list-style-image: url("../../img/Ellipse 2.png");
+      li{
+        margin-bottom: 19px;
+        padding-left: 15px;
+      }
+    }
+  }
+}
