@@ -3,6 +3,10 @@
   padding-bottom: 88px;
 }
 
+#inner-video2 {
+  height: 98%;
+}
+
 .services-video {
   position: relative;
 }

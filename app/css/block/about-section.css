@@ -4,6 +4,10 @@
   padding-bottom: 110px;
 }
 
+#inner-video {
+  height: 100%;
+}
+
 .about-video {
   position: relative;
 }

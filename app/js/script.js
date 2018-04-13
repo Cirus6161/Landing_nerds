@@ -7,7 +7,27 @@ $(document).ready(function(){
 
 
 
-    
+    $(document).on('click','.about-video__poster',function(e) {
+
+        var $video = $('#inner-video'),
+            src = $video.attr('src');
+
+        $('.about-video__poster').hide();
+        $video.attr('src', src + '&autoplay=1');
+    });
+
+    $(document).on('click','.services-video__poster',function(e) {
+
+        var $video = $('#inner-video2'),
+            src = $video.attr('src');
+
+        $('.services-video__poster').hide();
+        $video.attr('src', src + '&autoplay=1');
+    });
+
+
+
+
 
     /*phone-mask*/
     $(".phone").mask("+9(999)999-9999");

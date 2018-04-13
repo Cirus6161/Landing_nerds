@@ -10186,6 +10186,10 @@ template {
   padding-bottom: 110px;
 }
 
+#inner-video {
+  height: 100%;
+}
+
 .about-video {
   position: relative;
 }
@@ -10610,6 +10614,10 @@ template {
 .services-description-section {
   padding-top: 105px;
   padding-bottom: 88px;
+}
+
+#inner-video2 {
+  height: 98%;
 }
 
 .services-video {
