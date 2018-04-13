@@ -168,10 +168,10 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <form>
-                            <input type="text" placeholder="Введіть ваше ім’я" >
-                            <input type="tel" placeholder="Введіть ваш телефон" pattern="2[0-9]{3}-[0-9]{3}" >
-                            <input type="email" placeholder="Введіть ваш e-mail" >
+                        <form id="common_form1">
+                            <input type="text" placeholder="Введіть ваше ім’я" name="name"  required>
+                            <input type="tel" class="phone" placeholder="Введіть ваш телефон" name="cellphone"   required>
+                            <input type="email" placeholder="Введіть ваш e-mail" name="email" required>
                             <input type="submit" value="Залишити заявку" class="form-button">
                         </form>
                     </div>
@@ -336,6 +336,7 @@
             <div class="row">
                 <div class="services-video col">
                     <iframe width="560" height="370" src="https://www.youtube.com/embed/_R7qObnGzXk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="services-video__poster"><img src="img/Group%2053.png"></div>
                 </div>
                 <div class="services-text col">
                     <h2>Чим відрізняються тарифи?<br>
@@ -367,10 +368,10 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <form>
-                            <input type="text" placeholder="Введіть ваше ім’я" >
-                            <input type="tel" placeholder="Введіть ваш телефон" pattern="2[0-9]{3}-[0-9]{3}" >
-                            <input type="email" placeholder="Введіть ваш e-mail" >
+                        <form id="common_form2">
+                            <input type="text" placeholder="Введіть ваше ім’я" name="name" required>
+                            <input type="tel" class="phone" placeholder="Введіть ваш телефон" name="cellphone" required>
+                            <input type="email" placeholder="Введіть ваш e-mail" name="email" required>
                             <input type="submit" value="Замовіті шаблоній лендінг" class="form-button2">
                         </form>
                     </div>
@@ -561,10 +562,12 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <script src="libs/slick/slick.min.js"></script>
+    <script src="../node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
     <!-- HelloPreload http://hello-site.ru/preloader/ -->
-    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #3A539B url(http://hello-site.ru//main/images/preloads/three-dots.svg) center center no-repeat;background-size:41px;}</style>
+    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #19B5FE url(http://hello-site.ru//main/images/preloads/three-dots.svg) center center no-repeat;background-size:41px;}</style>
     <div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
     <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},2000);};</script>
     <!-- HelloPreload http://hello-site.ru/preloader/ -->

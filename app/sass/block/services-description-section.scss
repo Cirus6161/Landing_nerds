@@ -6,6 +6,18 @@
   padding-bottom: 88px;
 }
 
+.services-video{
+  position: relative;
+}
+
+.services-video__poster{
+  position: absolute;
+  top: -6px;
+  left: 6px;
+
+
+}
+
 .services-text{
   font-family: $SF-UI-font;
   color: #000;
