@@ -4,6 +4,16 @@
   padding-bottom: 110px;
 }
 
+.about-video {
+  position: relative;
+}
+
+.about-video .about-video__poster {
+  position: absolute;
+  top: -6px;
+  left: 6px;
+}
+
 .about-text {
   font-family: "SF UI Text", sans-serif;
   color: #fff;
