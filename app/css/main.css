@@ -10198,6 +10198,7 @@ template {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: "SF UI Text", sans-serif;
 }
 
 .about-text__p {
@@ -10320,6 +10321,7 @@ template {
   border-bottom: 0px !important;
   font-size: 20px;
   padding: 21px 121px 24px 87px;
+  padding-left: 70px !important;
   background-color: #F1C40F !important;
   -webkit-border-radius: 5px;
           border-radius: 5px;
@@ -10329,6 +10331,7 @@ template {
   -webkit-transform: translate(13%, 0%);
       -ms-transform: translate(13%, 0%);
           transform: translate(13%, 0%);
+  cursor: pointer;
 }
 
 .portfolio-section {
@@ -10592,6 +10595,145 @@ template {
       -ms-flex-preferred-size: 32%;
           flex-basis: 32%;
   margin-right: 0px;
+}
+
+.services-description-section {
+  padding-top: 105px;
+  padding-bottom: 88px;
+}
+
+.services-text {
+  font-family: "SF UI Text", sans-serif;
+  color: #000;
+  -webkit-transform: translate(-2%, -1%);
+      -ms-transform: translate(-2%, -1%);
+          transform: translate(-2%, -1%);
+}
+
+.services-text h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "SF UI Text", sans-serif;
+}
+
+.services-text a {
+  font-family: "SF UI Text", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.services-text__p {
+  font-size: 18px;
+}
+
+.services-text__p p:last-child {
+  margin-bottom: 10px;
+}
+
+.form-section2__item--blue {
+  background-color: #3498DB;
+  padding-top: 105px;
+  padding-bottom: 113px;
+}
+
+.header-row2 {
+  text-align: center;
+}
+
+.header-row2 h2 {
+  font-family: "SF UI Text", sans-serif;
+  font-size: 44px;
+  color: #fff;
+  -webkit-transform: translate(1%, 0%);
+      -ms-transform: translate(1%, 0%);
+          transform: translate(1%, 0%);
+  margin-bottom: 75px;
+}
+
+.header-row2 span {
+  font-size: 30px;
+  margin-right: 80px;
+}
+
+.form-section2 form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-section2 form ::-webkit-input-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section2 form ::-moz-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section2 form :-ms-input-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section2 form ::-ms-input-placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section2 form ::placeholder {
+  color: #fff;
+  font-family: "SF UI Text", sans-serif;
+  font-size: 18px;
+}
+
+.form-section2 form input {
+  outline: none;
+  font-size: 18px;
+  font-family: "SF UI Text", sans-serif;
+  padding-bottom: 17px;
+  padding-left: 10px;
+  margin-right: 26px;
+  width: 31%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.form-button2 {
+  border-bottom: 0px !important;
+  font-size: 20px;
+  padding: 21px 121px 24px 87px;
+  padding-left: 32px !important;
+  background-color: #F1C40F !important;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
+          box-shadow: 0px 3px 0px 0px #9a7b00;
+  margin-top: 37px;
+  -webkit-transform: translate(4%, 0%);
+      -ms-transform: translate(4%, 0%);
+          transform: translate(4%, 0%);
+  cursor: pointer;
 }
 
 * {

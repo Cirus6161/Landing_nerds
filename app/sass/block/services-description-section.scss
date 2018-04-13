@@ -1,0 +1,41 @@
+@import "../vars";
+
+
+.services-description-section{
+  padding-top: 105px;
+  padding-bottom: 88px;
+}
+
+.services-text{
+  font-family: $SF-UI-font;
+  color: #000;
+  transform: translate(-2%, -1%);
+  h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: $SF-UI-font;
+  }
+  a{
+    font-family: $SF-UI-font;
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+
+
+.services-text__p{
+  font-size: 18px;
+  p{
+    &:last-child{
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+
+
+
+

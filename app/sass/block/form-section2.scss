@@ -2,20 +2,20 @@
 
 
 
-.form-section__item--blue{
+.form-section2__item--blue{
   background-color: $blue-color;
   padding-top: 105px;
-  padding-bottom: 93px;
+  padding-bottom: 113px;
 }
 
-.header-row{
+.header-row2{
   text-align: center;
   h2{
     font-family: $SF-UI-font;
     font-size: 44px;
     color: #fff;
-    transform: translate(3%, 0%);
-    margin-bottom: 55px;
+    transform: translate(1%, 0%);
+    margin-bottom: 75px;
   }
   span{
     font-size: 30px;
@@ -23,7 +23,7 @@
   }
 }
 
-.form-section form{
+.form-section2 form{
   ::placeholder {
     color: #fff;
     font-family: $SF-UI-font;
@@ -48,15 +48,15 @@
   }
 }
 
-.form-button{
+.form-button2{
   border-bottom: 0px !important;
   font-size: 20px;
   padding: 21px 121px 24px 87px;
-  padding-left: 70px !important;
+  padding-left: 32px !important;
   background-color: $gold-color !important;
   border-radius: 5px;
   box-shadow: 0px 3px 0px 0px #9a7b00;
-  margin-top: 55px;
-  transform: translate(13%, 0%);
+  margin-top: 37px;
+  transform: translate(4%, 0%);
   cursor: pointer;
 }
