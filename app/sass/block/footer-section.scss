@@ -1,2 +1,54 @@
 @import "../vars";
 
+.footer-section__item--blue{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3498DB;
+}
+
+.navigation__footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navigation__footer--list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  min-height: 68px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+    li{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    a{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    ul{
+      display: flex;
+      list-style: none;
+    }
+}
+
+.footer__social{
+  padding-left: 0px;
+  li{
+    margin-right: 25px;
+    &:last-child{
+      margin-right: 0px;
+    }
+    a{
+      color: #fff;
+      font-size: 20px;
+    }
+
+  }
+
+}
