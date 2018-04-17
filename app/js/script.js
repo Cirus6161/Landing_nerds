@@ -6,6 +6,10 @@ $(document).ready(function(){
     });
 
 
+    $('.m-slider').slick({
+    });
+
+
 
     $(document).on('click','.about-video__poster',function(e) {
 
