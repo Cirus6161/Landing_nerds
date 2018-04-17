@@ -45,10 +45,12 @@
     border: none;
     color: #fff;
     border-bottom: 3px solid #fff;
+
   }
 }
 
 .form-button2{
+  color: #fff;
   border-bottom: 0px !important;
   font-size: 20px;
   padding: 21px 121px 24px 87px;
@@ -59,4 +61,8 @@
   margin-top: 37px;
   transform: translate(4%, 0%);
   cursor: pointer;
+  transition: box-shadow 1s;
+  &:hover{
+    box-shadow: 0px 3px 0px 0px;
+  }
 }

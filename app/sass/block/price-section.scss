@@ -47,6 +47,10 @@
     -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
     box-shadow: 0px 3px 0px 0px #9a7b00;
     font-size: 20px;
+    transition: box-shadow 1s;
+    &:hover{
+      box-shadow: 0px 0px 0px 0px;
+    }
   }
   .price-section__inner{
     img{

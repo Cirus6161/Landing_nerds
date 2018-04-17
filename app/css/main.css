@@ -10127,10 +10127,17 @@ template {
   color: #fff;
   -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
   box-shadow: 0px 3px 0px 0px #9a7b00;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
 }
 
 .main-left__button:hover {
   color: #fff;
+  -webkit-box-shadow: 0px 0px 0px 0px;
+          box-shadow: 0px 0px 0px 0px;
 }
 
 .main-right {
@@ -10436,6 +10443,16 @@ template {
       -ms-transform: translate(13%, 0%);
           transform: translate(13%, 0%);
   cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
+}
+
+.form-button:hover {
+  -webkit-box-shadow: 0px 0px 0px 0px;
+          box-shadow: 0px 0px 0px 0px;
 }
 
 .portfolio-section {
@@ -10546,11 +10563,18 @@ template {
   -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
           box-shadow: 0px 3px 0px 0px #9a7b00;
   font-size: 20px;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
 }
 
 .all-works--btn:hover {
   text-decoration: none;
   color: #fff;
+  -webkit-box-shadow: 0px 0px 0px 0px #9a7b00;
+          box-shadow: 0px 0px 0px 0px #9a7b00;
 }
 
 .price-section__item--blue {
@@ -10608,6 +10632,16 @@ template {
   -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
   box-shadow: 0px 3px 0px 0px #9a7b00;
   font-size: 20px;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
+}
+
+.price-section__box a:hover {
+  -webkit-box-shadow: 0px 0px 0px 0px;
+          box-shadow: 0px 0px 0px 0px;
 }
 
 .price-section__box .price-section__inner img {
@@ -10838,6 +10872,7 @@ template {
 }
 
 .form-button2 {
+  color: #fff;
   border-bottom: 0px !important;
   font-size: 20px;
   padding: 21px 121px 24px 87px;
@@ -10852,6 +10887,16 @@ template {
       -ms-transform: translate(4%, 0%);
           transform: translate(4%, 0%);
   cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
+}
+
+.form-button2:hover {
+  -webkit-box-shadow: 0px 3px 0px 0px;
+          box-shadow: 0px 3px 0px 0px;
 }
 
 .carousel-section {
@@ -10896,6 +10941,17 @@ template {
           border-radius: 5px;
   -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
           box-shadow: 0px 3px 0px 0px #9a7b00;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
+}
+
+.download:hover {
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 0px 0px;
+          box-shadow: 0px 0px 0px 0px;
 }
 
 .watch-video {
@@ -11020,6 +11076,16 @@ template {
           border-radius: 5px;
   -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
           box-shadow: 0px 3px 0px 0px #9a7b00;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
+}
+
+.extra-services-item__box a:hover {
+  -webkit-box-shadow: 0px 0px 0px 0px;
+          box-shadow: 0px 0px 0px 0px;
 }
 
 .contacts-section {

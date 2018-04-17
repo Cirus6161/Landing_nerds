@@ -95,8 +95,12 @@
   border-radius: 5px;
   box-shadow: 0px 3px 0px 0px #9a7b00;
   font-size: 20px;
-  &:hover{
-    text-decoration: none;
-    color: #fff;
-  }
+  transition: box-shadow 1s;
+
+}
+
+.all-works--btn:hover{
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 0px 0px 0px #9a7b00;
 }

@@ -59,5 +59,9 @@
   margin-top: 55px;
   transform: translate(13%, 0%);
   cursor: pointer;
+  transition: box-shadow 1s;
+  &:hover{
+    box-shadow: 0px 0px 0px 0px;
+  }
 }
 

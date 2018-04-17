@@ -46,4 +46,14 @@
           border-radius: 5px;
   -webkit-box-shadow: 0px 3px 0px 0px #9a7b00;
           box-shadow: 0px 3px 0px 0px #9a7b00;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
+}
+
+.extra-services-item__box a:hover {
+  -webkit-box-shadow: 0px 0px 0px 0px;
+          box-shadow: 0px 0px 0px 0px;
 }
