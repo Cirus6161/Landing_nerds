@@ -58,6 +58,13 @@
   text-decoration: none;
 }
 
+.navigation__list li a:hover {
+  color: #171a1d;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
 .navigation__list--fab {
   display: -webkit-box;
   display: -webkit-flex;
@@ -74,6 +81,13 @@
 .navigation__list--fab li i {
   color: #fff;
   font-size: 20px;
+}
+
+.navigation__list--fab li i:hover {
+  color: #171a1d;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 
 .main-left {

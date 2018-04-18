@@ -10039,6 +10039,13 @@ template {
   text-decoration: none;
 }
 
+.navigation__list li a:hover {
+  color: #171a1d;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
 .navigation__list--fab {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10055,6 +10062,13 @@ template {
 .navigation__list--fab li i {
   color: #fff;
   font-size: 20px;
+}
+
+.navigation__list--fab li i:hover {
+  color: #171a1d;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 
 .main-left {
@@ -10314,6 +10328,7 @@ template {
   position: absolute;
   top: -6px;
   left: 6px;
+  cursor: pointer;
 }
 
 .about-text {
@@ -10779,6 +10794,7 @@ template {
 }
 
 .services-video__poster {
+  cursor: pointer;
   position: absolute;
   top: -6px;
   left: 6px;
@@ -11231,6 +11247,13 @@ template {
 .footer__social li a {
   color: #fff;
   font-size: 20px;
+}
+
+.footer__social li a:hover {
+  color: #171a1d;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 
 * {
