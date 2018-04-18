@@ -6,6 +6,19 @@ $(document).ready(function(){
     });
 
 
+    $('#m-slider1').slick({
+        asNavFor: '#m-slider2, #m-slider3'
+    });
+
+    $('#m-slider2').slick({
+        asNavFor: '#m-slider1, #m-slider3'
+    });
+
+    $('#m-slider3').slick({
+        asNavFor: '#m-slider1, #m-slider2'
+    });
+
+
 
     $(document).on('click','.about-video__poster',function(e) {
 
