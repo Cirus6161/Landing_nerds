@@ -9990,7 +9990,7 @@ template {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 108px;
+  margin-bottom: 185px;
 }
 
 .header-section__item--blue {
@@ -10816,7 +10816,7 @@ template {
 .form-section2__item--blue {
   background-color: #3498DB;
   padding-top: 105px;
-  padding-bottom: 113px;
+  padding-bottom: 93px;
 }
 
 .header-row2 {
@@ -10930,7 +10930,7 @@ template {
 
 .carousel-section {
   padding-top: 60px;
-  padding-bottom: 33px;
+  padding-bottom: 35px;
 }
 
 .carousel-section h2 {
