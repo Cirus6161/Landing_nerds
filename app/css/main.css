@@ -10711,13 +10711,24 @@ template {
 }
 
 .price-section__box .price-section__inner ul {
-  list-style-image: url("../img/Ellipse 2.png");
+  list-style: none;
   padding-left: 26px;
 }
 
 .price-section__box .price-section__inner ul li {
   margin-bottom: 19px;
   padding-left: 15px;
+  position: relative;
+}
+
+.price-section__box .price-section__inner ul li:before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 9px;
+  left: -8px;
+  content: "";
+  background-image: url("../img/Ellipse 2.png");
 }
 
 .price-section__footer--text {

@@ -92,11 +92,21 @@
       padding-left: 10px;
     }
     ul{
-      list-style-image: url("../img/Ellipse 2.png");
+      list-style: none;
       padding-left: 26px;
       li{
         margin-bottom: 19px;
         padding-left: 15px;
+        position: relative;
+        &:before{
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          top: 9px;
+          left: -8px;
+          content: "";
+          background-image: url("../img/Ellipse 2.png");
+        }
       }
     }
   }
