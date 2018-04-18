@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -10161,8 +10162,24 @@ template {
   position: relative;
 }
 
-.main-right__img img {
-  width: 100%;
+.main-right__img--1 {
+  position: absolute;
+  right: 450px;
+  top: 123px;
+  z-index: 10;
+}
+
+.main-right__img--2 {
+  position: absolute;
+  right: 351px;
+  top: 198px;
+  z-index: 11;
+}
+
+.main-right__img--3 {
+  position: absolute;
+  top: -25px;
+  right: -16px;
 }
 
 .main-right__text h3 {
@@ -10188,27 +10205,29 @@ template {
   font-weight: 900;
 }
 
+/*Слайдеры*/
 #m-slider1 {
   position: absolute;
-  height: 229px;
-  width: 406px;
-  right: 64px;
-  top: 50px;
+  height: 265px;
+  width: 473px;
+  right: 22px;
+  top: 25px;
 }
 
 #m-slider1 .slide-item1 {
   background-color: #007bff;
-  height: 246px;
+  height: 265px;
+  width: 473px;
 }
 
 #m-slider1 .slide-item2 {
   background-color: #6f42c1;
-  height: 246px;
+  height: 265px;
 }
 
 #m-slider1 .slide-item3 {
   background-color: #21f8f8;
-  height: 246px;
+  height: 265px;
 }
 
 #m-slider1 .slick-prev, #m-slider1 .slick-next {
@@ -10217,28 +10236,28 @@ template {
 
 #m-slider2 {
   position: absolute;
-  height: 187px;
-  width: 141px;
-  left: 47px;
-  top: 182px;
+  height: 155px;
+  width: 86px;
+  left: 10px;
+  top: 22px;
   z-index: 10;
 }
 
 #m-slider2 .slide-item1 {
   background-color: #007bff;
-  height: 187px;
+  height: 155px;
   width: 100%;
 }
 
 #m-slider2 .slide-item2 {
   background-color: #6f42c1;
-  height: 187px;
+  height: 155px;
   width: 100%;
 }
 
 #m-slider2 .slide-item3 {
   background-color: #21f8f8;
-  height: 187px;
+  height: 155px;
   width: 100%;
 }
 
@@ -10248,28 +10267,28 @@ template {
 
 #m-slider3 {
   position: absolute;
-  height: 104px;
-  width: 75px;
-  left: 214px;
-  bottom: 94px;
+  height: 217px;
+  width: 163px;
+  left: 26px;
+  bottom: 31px;
   z-index: 11;
 }
 
 #m-slider3 .slide-item1 {
   background-color: #007bff;
-  height: 104px;
+  height: 217px;
   width: 100%;
 }
 
 #m-slider3 .slide-item2 {
   background-color: #6f42c1;
-  height: 104px;
+  height: 217px;
   width: 100%;
 }
 
 #m-slider3 .slide-item3 {
   background-color: #21f8f8;
-  height: 104px;
+  height: 217px;
   width: 100%;
 }
 
