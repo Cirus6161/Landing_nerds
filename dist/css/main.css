@@ -11264,3 +11264,18 @@ template {
 a:hover {
   text-decoration: none;
 }
+
+
+label.error{
+  display: none !important;
+}
+
+input.error{
+  border-bottom: 3px solid red !important;
+}
+
+/*
+input[class="error"]::-webkit-input-placeholder { color: red !important; }
+input[class="error"]:-ms-input-placeholder  { color: red !important; }
+input[class="error"]:-ms-input-placeholder  { color: red !important; }
+input[class="error"]::placeholder { color: red !important; }*/

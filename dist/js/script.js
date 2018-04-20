@@ -65,7 +65,7 @@ $(document).ready(function(){
                 url: "mail.php",
                 type: "POST",
                 data: $(form).serializeArray(),
-                success: function (response) {
+                success: function () {
                     form.reset();
                 }
             })
@@ -91,7 +91,7 @@ $(document).ready(function(){
                 url: "mail.php",
                 type: "POST",
                 data: $(form).serializeArray(),
-                success: function (response) {
+                success: function () {
                     form.reset();
                 }
             })
